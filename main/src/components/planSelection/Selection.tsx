@@ -18,9 +18,9 @@ const Selection = () => {
 
     const handleSelection = () => {
         console.log(NAVIGATION.get(plan));
-        // navigate(NAVIGATION.get(plan)!);
+        navigate(NAVIGATION.get(plan)!);
         // window.location.replace('https://connect-228.com');
-        window.open('https://connectpharma-228.com', "_blank") 
+        // window.open('https://connectpharma-228.com', "_blank") 
     }
 
     return (
